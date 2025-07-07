@@ -6,13 +6,6 @@ on:
       - 'dev*'
     paths:
       - '.github/workflows/*'
-  pull_request:
-    types: 
-      - opened
-      - closed
-    branches:
-      - main
-      - 'dev*'
   workflow_dispatch:
 jobs:
   deploy:
